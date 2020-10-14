@@ -1,6 +1,6 @@
 {
   "name": "@jedwards1211/eslint-config-es5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my own eslint config for ES5 (not ES2015).  eschews most stylistic rules that aren't auto-fixable",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/jedwards1211/eslint-config-andy-es5/issues"
   },
-  "homepage": "https://github.com/jedwards1211/eslint-config-andy-es5#readme"
+  "homepage": "https://github.com/jedwards1211/eslint-config-andy-es5#readme",
+  "peerDependencies": {
+    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0"
+  }
 }
 
